@@ -40,12 +40,16 @@ Link: https://youtu.be/k6m0R5nDb3Q
 ## Project Focus
 - Modular component structure
 - Responsive design
-- Layout and aesthetic flow
+- Strong visual hierarchy and cohesive flow
 - Clean, readable code structure
 - Personal branding and voice
 
 # Purpose
-This is 100% a creative expression of my mind, bridging front-end development with my personal interest. Eager to explore **React development** to create an editorial style website. The content is inspired by a creative brand run by two women whose names both end with Ela, not Ella. To goal was to create a clean, intentional, and magnetic website. This project is just one example of how I tackle my projects - aiming to showcase the uniqueness each brand brings and draw in the right audience. I design the layout of websites with extreme thoughfulness.
+I built this website using React with JSX and Vite for a fast development environment. The modular components in React allow for each section (page) to be clearly separated and organized. Therefore, maintaining to each section became efficient. Within each section exists a .jsx and .css file, making it easy to manage styling and strucutre. I used Git/Github to manage version control.
+
+This project is a 100% creative expression of my mind, bridging front-end development with my personal interests. I was eager to explore React development to create an editorial-style website. The content is inspired by a creative brand run by two women whose names both end in Ela—not Ella. 
+
+The goal was to create a clean, intentional, and magnetic website. This project is just one example of how I approach my work: showcasing the uniqueness each brand offers while attracting the right audience. I design website layouts with extreme thoughtfulness and an open mind, while always prioritzing security, functionality, and clear implementation alongside visual appeal. 
 
 ## Status
 1 1/2 pages complete  
