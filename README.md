@@ -6,6 +6,9 @@
 - CSS (custom styling)
 - Git / GitHub
 
+## Video Demo
+
+
 ## 🗂️ Folder Structure Overview
 
 ### 📁 `public/`
