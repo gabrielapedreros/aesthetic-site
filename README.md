@@ -7,7 +7,7 @@
 - Git / GitHub
 
 ## Video Demo
-
+Link: https://youtu.be/k6m0R5nDb3Q
 
 ## 🗂️ Folder Structure Overview
 
@@ -45,9 +45,7 @@
 - Personal branding and voice
 
 # Purpose
-This is a creative front-end project I designed and built to explore **React development** through the lens of design, minimalism, and personal expression. Inspired by editorial layouts and Vogue-style magazine aesthetics, the goal was to create something clean, intentional, and beautiful. This is just one example of how I attack my projects - with authentic thoughfulness and a unique vision.
-
-The project is themed around a 'fictional' creative brand concept based on my friend and I — both of our names end in *Ela* (not Ella). We’re both naturally creative and business-minded, and this playful site represents that shared energy.
+This is 100% a creative expression of my mind, bridging front-end development with my personal interest. Eager to explore **React development** to create an editorial style website. The content is inspired by a creative brand run by two women whose names both end with Ela, not Ella. To goal was to create a clean, intentional, and magnetic website. This project is just one example of how I tackle my projects - aiming to showcase the uniqueness each brand brings and draw in the right audience. I design the layout of websites with extreme thoughfulness.
 
 ## Status
 1 1/2 pages complete  
