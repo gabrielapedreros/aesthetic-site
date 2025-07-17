@@ -1,0 +1,148 @@
+.section_title{
+    margin-top: -20px;
+    font-size: 6.6rem;
+    text-align: center;
+    font-weight: 200;
+    color:#c0baa2;
+}
+.section_subtitle {
+    font-size: 1.2rem;
+    font-weight: 350;
+    color: #000;
+    text-align: center;
+    display: block; /* ensures it sits below the title */
+}
+
+/* ensure the section is spaced properly */
+.services {
+    padding: 3rem 0; /* adds breathing space */
+    background-color:#c0baa223;
+}
+.service_container {
+    display: grid;
+    grid-template-columns: repeat(4, 17rem);
+    justify-content: center;
+    column-gap: 1rem;
+    margin-top: 40px;
+    align-items: stretch;
+    background-color: transparent;
+    padding: 0;
+}
+/* ensures all service boxes match the tallest one */
+
+.services_content {
+/* removed background color for boxes*/
+    padding: .5rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+
+/* to reel in the user -> hover */
+.services_content:hover {
+    transform: scale(1.05);
+}
+
+.services_title {
+    font-size: 1.45rem;
+    font-weight: 555;
+    margin-bottom: 10px ;
+    color: rgba(11, 1, 33, 0.844);
+}
+
+.services_subcategories {
+    list-style: none;
+    font-size: 1.15rem;
+    font-weight: 280;
+    word-spacing: 1.5px;
+    color: rgba(11, 1, 33, 0.844);
+ /* forces equal height in every box */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-height: 10px; 
+    min-height: 70px;
+    min-width: 220px;
+}
+
+.services_details {
+    margin-top: 1rem;
+    background: rgba(11, 1, 33, 0.844);
+    padding: 1rem;
+    border-radius: 8px;
+    max-width:200px;
+}
+
+.services_details-text {
+    font-size: .95rem;
+    font-weight: 170;
+    color: #e8e7e4;
+    
+}
+.service-title-subcat{
+    border: 2px solid #c0baa2;
+    background-color:#fff;
+    padding-block: 3rem;
+    border-radius: 10px;
+    margin:0;
+}
+
+/* tab container */
+.tab_container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.tab_button {
+    background: none;
+    border: none;
+    font-size: 1.15rem;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    color: rgba(11, 1, 33, 0.844)
+}
+
+.tab_button.active {
+    color: rgba(11, 1, 33, 0.844);
+    border-bottom: 2px solid #c0baa2;
+}
+
+/* gallery styling */
+.gallery_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    justify-content: center;
+
+}
+
+.gallery_item {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+
+.gallery_image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* interactive feature */
+.gallery_image:hover {
+    transform: scale(1.05);
+}

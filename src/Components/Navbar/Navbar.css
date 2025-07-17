@@ -1,0 +1,31 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.709); 
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 23px;
+    color: black;
+    font-weight: 350; 
+    margin-right: 70px; /*so it doesnt stop at the end of the screen*/
+}
+.nav-menu a {
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    color: black;
+}
+
+.nav-menu a:hover{
+    color:black;
+    text-shadow: 0px 4px 4px rgb(184, 174, 200);
+}
+.navbar img {
+    width: auto;
+    /* Add margin to push the logo slightly to the right */
+}

@@ -1,0 +1,57 @@
+*{
+  margin:0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+}
+body{
+  background: white;
+  color: black;
+  font-family: 'outfit';
+}
+/* Global styles */
+body {
+  font-family: 'Outfit', sans-serif;  /* Global font */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Media Query for tablets (max-width: 768px) */
+@media (max-width: 768px) {
+  .navbar {
+    margin: 0 2px;  /* Reduce navbar margin on smaller screens */
+  }
+  .nav-menu {
+    gap: 30px;  /* Reduce the gap between navbar items */
+    font-size: 18px;  /* Smaller font size for links */
+  }
+  .hero h1 {
+    font-size: 4rem;  /* Smaller heading size on tablets */
+  }
+  .cta-link a {
+    font-size: 1rem;  /* Smaller font size for CTA link */
+    padding: 10px 20px;  /* Reduced padding */
+  }
+}
+
+/* Media Query for mobile (max-width: 480px) */
+@media (max-width: 480px) {
+  .navbar {
+    margin: 0 10px;  /* Adjust navbar margin */
+  }
+
+  .nav-menu {
+    flex-direction: column;  /* Stack navbar items vertically */
+    gap: 15px;  /* Reduce gap between stacked items */
+    font-size: 16px;  /* Further reduce font size */
+  }
+
+  .hero h1 {
+    font-size: 1.5rem;  /* Even smaller heading for mobile */
+  }
+
+  .cta-link a {
+    font-size: 0.9rem;  /* Smaller text for CTA link */
+    padding: 8px 16px;  /* Smaller padding for mobile */
+  }
+}
