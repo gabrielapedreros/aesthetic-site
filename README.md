@@ -45,15 +45,17 @@ Link: https://youtu.be/k6m0R5nDb3Q
 - Personal branding and voice
 
 # Purpose
-I built this website using React with JSX and Vite for a fast development environment. The modular components in React allow for each section (page) to be clearly separated and organized. Therefore, maintaining to each section became efficient. Within each section exists a .jsx and .css file, making it easy to manage styling and strucutre. I used Git/Github to manage version control.
+I built this website using React with JSX and Vite due to its fast development environment. The modularity in React allowed for each section to be separated into major components that I can easily manage and build upon. This made the development process efficient, where each page had a .jsx and .css file for implementing the style and structure. I used Git to manage version control. 
 
-This project is a 100% creative expression of my mind, bridging front-end development with my personal interests. I was eager to explore React development to create an editorial-style website. The content is inspired by a creative brand run by two women whose names both end in Ela—not Ella. 
+Modular components
 
-The goal was to create a clean, intentional, and magnetic website. This project is just one example of how I approach my work: showcasing the uniqueness each brand offers while attracting the right audience. I design website layouts with extreme thoughtfulness and an open mind, while always prioritzing security, functionality, and clear implementation alongside visual appeal. 
+The goal was to create a sleek, intentional, and magnetic website. I designed the website layouts with extreme thoughtfulness and a vision, while prioritizing functionality, visual appeal, clear implementation, security, and reliability. This project is just one example of how I approach my work: showcasing the uniqueness each brand has while attracting the right audience. 
+
+This project bridges front-end development with my creative personal interest. The website is of a creative brand concept ahead of its time. Ela & Ela are two women with a versatile resume that do not need cookie-cutter marketing to find success in their skills, just the right website. 
 
 ## Status
-1 1/2 pages complete  
-1 1/2 page in progress  
+Completed: Home and Discover Ela&Ela (placeholder images for now)
+In progress: Meet The Women of Ela&Ela
 Not published (local-only)
 
 ## Why It’s Here
